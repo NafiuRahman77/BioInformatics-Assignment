@@ -66,30 +66,39 @@ def randomized_motif(sequences, k, t, N):
     motifs = randomly_select_kmers(sequences, k)
     best_motifs = motifs
     best_score, _ = score(best_motifs, k)
-    for _ in range(N):
-        # print(_)
+    while(True):
         profile = create_profile(motifs, k)
         motifs = motif_from_profile(sequences, k, profile)
         current_score, _ = score(motifs, k)
         if current_score < best_score:
             best_motifs = motifs
             best_score = current_score
+        else:
+            break
     return best_motifs, best_score
    
 
 def run_randomized_motif_scores(filepath, k, N):
     sequences = read_sequences(filepath)
     t = len(sequences)
-    best_motifs, best_score = randomized_motif(sequences, k, t, N)
+    # best_motifs, best_score = randomized_motif(sequences, k, t, N)
+    best_motifs = []
+    best_score = 10000000000000000000000000000000000
+    for _ in range(N):
+        motifs, score_value = randomized_motif(sequences, k, t, N)
+        if score_value < best_score:
+            best_motifs = motifs
+            best_score = score_value
     _, consensus = score(best_motifs, k)
     return best_motifs, best_score, consensus
+
 
 k = 8
 N = 10000
 #calculate the time taken to run the function
 
 start = time.time()
-best_motifs, best_score, consensus = run_randomized_motif_scores('yst08r.txt', k, N)
+best_motifs, best_score, consensus = run_randomized_motif_scores('hm03.txt', k, N)
 end = time.time()
 print(f"Time taken: {end - start}")
 print(f"Best motifs: {best_motifs}")
