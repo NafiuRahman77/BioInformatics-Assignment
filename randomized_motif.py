@@ -1,4 +1,5 @@
 import random
+import time
 
 def read_sequences(filepath):
     with open(filepath, 'r') as file:
@@ -85,7 +86,12 @@ def run_randomized_motif_scores(filepath, k, N):
 
 k = 8
 N = 10000
-best_motifs, best_score, consensus = run_randomized_motif_scores('hm03.txt', k, N)
+#calculate the time taken to run the function
+
+start = time.time()
+best_motifs, best_score, consensus = run_randomized_motif_scores('yst08r.txt', k, N)
+end = time.time()
+print(f"Time taken: {end - start}")
 print(f"Best motifs: {best_motifs}")
 print(f"Score: {best_score}")
 print(f"Consensus: {consensus}")

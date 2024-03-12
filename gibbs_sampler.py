@@ -1,4 +1,5 @@
 import random
+import time
 
 def read_sequences(filepath):
     with open(filepath, 'r') as file:
@@ -79,7 +80,10 @@ def run_gibbs_sampler_with_scores(filepath, k, N):
 
 k = 8
 N = 10000
+start = time.time()
 best_motifs, best_score, consensus = run_gibbs_sampler_with_scores('hm03.txt', k, N)
+end = time.time()
+print(f"Time: {end - start}")
 print(f"Best motifs: {best_motifs}")
 print(f"Score: {best_score}")
 print(f"Consensus: {consensus}")
