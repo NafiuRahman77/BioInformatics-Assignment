@@ -1,4 +1,9 @@
 import random
+import time
+
+import sys
+filename = sys.argv[1]
+kk = sys.argv[2]
 
 def read_sequences(filepath):
     with open(filepath, 'r') as file:
@@ -80,10 +85,13 @@ def run_gibbs_sampler_with_scores(filepath, k, N, num_exempt):
     _, consensus = score(best_motifs, k)
     return best_motifs, best_score, consensus
 
-k = 8
+k = int(kk)
 N = 10000
-num_exempt = 8
-best_motifs, best_score, consensus = run_gibbs_sampler_with_scores('hm03.txt', k, N, num_exempt)
+num_exempt = 5
+start = time.time()
+best_motifs, best_score, consensus = run_gibbs_sampler_with_scores(filename, k, N, num_exempt)
+end = time.time()
+print(f"Time: {end - start}")
 print(f"Best motifs: {best_motifs}")
 print(f"Score: {best_score}")
 print(f"Consensus: {consensus}")

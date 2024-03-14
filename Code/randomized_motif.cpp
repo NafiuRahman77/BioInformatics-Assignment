@@ -141,11 +141,11 @@ string Consensus(vector<string> motifs){
     return consensus;
 }
 
-int main(){
+int main (int argc, char** argv){
     vector<string> dna;
     int t = 0;
-    int k = 8;
-    ifstream file("hm03.txt");
+    int k = atoi(argv[2]);
+    ifstream file(argv[1]);
     string line;
     while(getline(file, line)){
         dna.push_back(line);
@@ -158,7 +158,7 @@ int main(){
     auto end = chrono::system_clock::now();
     chrono::duration<double> elapsed_seconds = end - start;
     // cout << "Elapsed time: " << elapsed_seconds.count() << "s\n";
-    cout << "Score after 1 iteration: " << Score(motifs) << endl;
+    // cout << "Score after 1 iteration: " << Score(motifs) << endl;
     // for(int i = 0; i < motifs.size(); i++){
     //     cout << motifs[i] << endl;
     // }
@@ -173,11 +173,14 @@ int main(){
     }
     end = chrono::system_clock::now();
     elapsed_seconds = end - start;
-    // cout << "Elapsed time: " << elapsed_seconds.count() << "s\n";
-    cout << "Score after 10000 iterations: " << Score(best_motifs) << endl;
-    // for(int i = 0; i < best_motifs.size(); i++){
-    //     cout << best_motifs[i] << endl;
-    // }
+    cout << "Time: " << elapsed_seconds.count() << "\n";
+    cout << "Best motifs: ";
+    for(int i = 0; i < best_motifs.size(); i++){
+        cout << "'" << best_motifs[i] << "'";
+        if (i <  best_motifs.size()-1) cout << ", ";
+    };
+    cout << "]" << endl;
+    cout << "Score: " << Score(best_motifs) << endl;
     cout << "Consensus: " << Consensus(best_motifs) << endl;
     return 0;
 }
