@@ -78,7 +78,7 @@ def run_gibbs_sampler_with_scores(filepath, k, N):
     _, consensus = score(best_motifs, k)
     return best_motifs, best_score, consensus
 
-k = 8
+k = 15
 N = 10000
 start = time.time()
 best_motifs, best_score, consensus = run_gibbs_sampler_with_scores('hm03.txt', k, N)

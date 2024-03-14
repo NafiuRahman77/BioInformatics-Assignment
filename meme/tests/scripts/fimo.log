@@ -1,0 +1,109 @@
+*******************************************************************************
+Test fimo1 ...
+fimo --oc results/fimo1 --thresh 0.001 --norc /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/MCM1.meme.html /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/spiked.fasta &> log
+Using motif +TTTCCYDWTTBGGAAATW of width 18.
+Finding best site passing the output threshold in each of the 1 sequences.
+Found a best site in 1 sequences.
+Computing q-values.
+# Computing q-values.
+#   Estimating pi_0 from a uniformly sampled set of 2649 p-values.
+#   Estimating pi_0.
+# Minimal pi_zero = 0.770102
+#   Estimated pi_0=0.773877
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/fimo.tsv output results/fimo1/fimo.tsv
+PASSED!
+*******************************************************************************
+Test fimo2 ...
+fimo --oc results/fimo2 --motif CGGYGGGG --motif GCATCRGRBSAGA --no-qvalue --motif-pseudo 0.01 --thresh 0.01 common/crp0.meme.xml /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/motiph/spiked.fasta &> log
+Skipping motif +TKTGANCNABNTCACAHWT.
+Skipping motif -TKTGANCNABNTCACAHWT.
+Using motif +CGGYGGGG of width 8.
+Using motif -CGGYGGGG of width 8.
+Finding best site passing the output threshold in each of the 1 sequences.
+Found a best site in 1 sequences.
+Using motif +GCATCRGRBSAGA of width 13.
+Using motif -GCATCRGRBSAGA of width 13.
+Finding best site passing the output threshold in each of the 1 sequences.
+Found a best site in 1 sequences.
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/fimo-motif23.tsv output results/fimo2/fimo.tsv
+PASSED!
+*******************************************************************************
+Test fimo3 ...
+fimo --oc results/fimo3 --psp /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/GCN4_YPD.psp --prior-dist /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/prior.dist.txt /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/GCN4.meme.txt /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/GCN4_YPD.fasta &> log
+Using motif +MA0303.1 of width 21.
+Using motif -MA0303.1 of width 21.
+Finding best site passing the output threshold in each of the 58 sequences.
+Found a best site in 34 sequences.
+Computing q-values.
+# Computing q-values.
+#   Estimating pi_0 from a uniformly sampled set of 10000 p-values.
+#   Estimating pi_0.
+# Minimal pi_zero = 1.0003
+#   Estimated pi_0=1
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/fimo-priors.tsv output results/fimo3/fimo.tsv
+PASSED!
+*******************************************************************************
+Test fimo4 ...
+fimo --oc results/fimo4 --psp /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/GCN4_YPD-genomic.psp --prior-dist /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/prior.dist.txt /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/GCN4.meme.txt /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/GCN4_YPD-genomic.fasta &> log
+Using motif +MA0303.1 of width 21.
+Using motif -MA0303.1 of width 21.
+Finding best site passing the output threshold in each of the 58 sequences.
+Found a best site in 34 sequences.
+Computing q-values.
+# Computing q-values.
+#   Estimating pi_0 from a uniformly sampled set of 10000 p-values.
+#   Estimating pi_0.
+# Minimal pi_zero = 1.0003
+#   Estimated pi_0=1
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/fimo-priors-genomic.tsv output results/fimo4/fimo.tsv
+PASSED!
+*******************************************************************************
+Test fimo5 ...
+fimo --oc results/fimo5 /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/streme/streme.Klf1-200-100.de.xml /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/Klf1-200-100.fa &> log
+Using motif +1-RGCCACACCC of width 10.
+Using motif -1-RGCCACACCC of width 10.
+Finding best site passing the output threshold in each of the 169 sequences.
+Found a best site in 61 sequences.
+Computing q-values.
+# Computing q-values.
+#   Estimating pi_0 from a uniformly sampled set of 10000 p-values.
+#   Estimating pi_0.
+# Minimal pi_zero = 0.923495
+#   Estimated pi_0=0.925565
+Using motif +2-CTTATCTBCTC of width 11.
+Using motif -2-CTTATCTBCTC of width 11.
+Finding best site passing the output threshold in each of the 169 sequences.
+Found a best site in 26 sequences.
+Computing q-values.
+# Computing q-values.
+#   Estimating pi_0 from a uniformly sampled set of 10000 p-values.
+#   Estimating pi_0.
+# Minimal pi_zero = 0.972
+#   Estimated pi_0=0.993049
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/fimo5.tsv output results/fimo5/fimo.tsv
+PASSED!
+*******************************************************************************
+Test fimo6 ...
+fimo --oc results/fimo6 --no-pgc /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/streme/streme.Klf1-200-100.de.xml /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/Klf1-200-100.fa &> log
+Using motif +1-RGCCACACCC of width 10.
+Using motif -1-RGCCACACCC of width 10.
+Finding best site passing the output threshold in each of the 169 sequences.
+Found a best site in 61 sequences.
+Computing q-values.
+# Computing q-values.
+#   Estimating pi_0 from a uniformly sampled set of 10000 p-values.
+#   Estimating pi_0.
+# Minimal pi_zero = 0.923495
+#   Estimated pi_0=0.925565
+Using motif +2-CTTATCTBCTC of width 11.
+Using motif -2-CTTATCTBCTC of width 11.
+Finding best site passing the output threshold in each of the 169 sequences.
+Found a best site in 26 sequences.
+Computing q-values.
+# Computing q-values.
+#   Estimating pi_0 from a uniformly sampled set of 10000 p-values.
+#   Estimating pi_0.
+# Minimal pi_zero = 0.972
+#   Estimated pi_0=0.993049
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/fimo/fimo6.tsv output results/fimo6/fimo.tsv
+PASSED!

@@ -1,0 +1,4 @@
+:test-result: PASS sea1 
+:test-result: PASS sea2 
+:test-result: PASS sea3 
+:test-result: PASS sea4 --xalph, --inc, --exc, --bfile, --order, --motif-pseudo

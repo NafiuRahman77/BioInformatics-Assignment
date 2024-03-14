@@ -93,7 +93,7 @@ def run_randomized_motif_scores(filepath, k, N):
     return best_motifs, best_score, consensus
 
 
-k = 8
+k = 12
 N = 10000
 #calculate the time taken to run the function
 
