@@ -145,5 +145,5 @@
     </motif>
   </motifs>
   <reason_for_stopping>Stopped because maximum number of motifs (5) reached.</reason_for_stopping>
-  <run_time cpu="1.08"/>
+  <run_time cpu="1.09"/>
 </STREME>

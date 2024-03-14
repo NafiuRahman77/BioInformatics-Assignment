@@ -192,16 +192,16 @@
 <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
 <letter id="K" symbol="K" equals="GT" name="Keto"/>
 </alphabet>
-<sequence id="sequence_0" name="S1" length="1500" weight="1.000000" />
-<sequence id="sequence_1" name="S2" length="1500" weight="1.000000" />
-<sequence id="sequence_2" name="S3" length="1500" weight="1.000000" />
-<sequence id="sequence_3" name="S4" length="1500" weight="1.000000" />
-<sequence id="sequence_4" name="S5" length="1500" weight="1.000000" />
-<sequence id="sequence_5" name="S6" length="1500" weight="1.000000" />
-<sequence id="sequence_6" name="S7" length="1500" weight="1.000000" />
-<sequence id="sequence_7" name="S8" length="1500" weight="1.000000" />
-<sequence id="sequence_8" name="S9" length="1500" weight="1.000000" />
-<sequence id="sequence_9" name="S10" length="1500" weight="1.000000" />
+<sequence id="sequence_0" name="1" length="1500" weight="1.000000" />
+<sequence id="sequence_1" name="2" length="1500" weight="1.000000" />
+<sequence id="sequence_2" name="3" length="1500" weight="1.000000" />
+<sequence id="sequence_3" name="4" length="1500" weight="1.000000" />
+<sequence id="sequence_4" name="5" length="1500" weight="1.000000" />
+<sequence id="sequence_5" name="6" length="1500" weight="1.000000" />
+<sequence id="sequence_6" name="7" length="1500" weight="1.000000" />
+<sequence id="sequence_7" name="8" length="1500" weight="1.000000" />
+<sequence id="sequence_8" name="9" length="1500" weight="1.000000" />
+<sequence id="sequence_9" name="10" length="1500" weight="1.000000" />
 <letter_frequencies>
 <alphabet_array>
 <value letter_id="A">0.269</value>
@@ -256,7 +256,7 @@
 </background_frequencies>
 </model>
 <motifs>
-<motif id="motif_1" name="TCTGTCTCT" alt="MEME-1" width="9" sites="10" ic="15.5" re="15.5" llr="107" p_value="1.2e-032" e_value="6.6e+002" bayes_threshold="10.5421" elapsed_time="1.599322">
+<motif id="motif_1" name="TCTGTCTCT" alt="MEME-1" width="9" sites="10" ic="15.5" re="15.5" llr="107" p_value="1.2e-032" e_value="6.6e+002" bayes_threshold="10.5421" elapsed_time="1.613805">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -529,7 +529,7 @@ TCTGT[CG][TC]CT
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_2" name="SCCAGGCTG" alt="MEME-2" width="9" sites="10" ic="15.1" re="15.5" llr="108" p_value="1.3e-032" e_value="7.4e+002" bayes_threshold="11.4859" elapsed_time="3.151246">
+<motif id="motif_2" name="SCCAGGCTG" alt="MEME-2" width="9" sites="10" ic="15.1" re="15.5" llr="108" p_value="1.3e-032" e_value="7.4e+002" bayes_threshold="11.4859" elapsed_time="3.189930">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -802,7 +802,7 @@ TCTGT[CG][TC]CT
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_3" name="TGGGTCCAG" alt="MEME-3" width="9" sites="10" ic="15.0" re="15.3" llr="106" p_value="6.9e-032" e_value="3.9e+003" bayes_threshold="10.7938" elapsed_time="4.689464">
+<motif id="motif_3" name="TGGGTCCAG" alt="MEME-3" width="9" sites="10" ic="15.0" re="15.3" llr="106" p_value="6.9e-032" e_value="3.9e+003" bayes_threshold="10.7938" elapsed_time="4.753992">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -1075,7 +1075,7 @@ TG[GA]G[TAC]CCA[GT]
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_4" name="ATCTGGGGC" alt="MEME-4" width="9" sites="10" ic="14.8" re="15.1" llr="105" p_value="1.2e-031" e_value="6.7e+003" bayes_threshold="11.4859" elapsed_time="6.229523">
+<motif id="motif_4" name="ATCTGGGGC" alt="MEME-4" width="9" sites="10" ic="14.8" re="15.1" llr="105" p_value="1.2e-031" e_value="6.7e+003" bayes_threshold="11.4859" elapsed_time="6.309600">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -1348,7 +1348,7 @@ A[TG][CG]TG[GA]GGC
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_5" name="GAGGAAGAG" alt="MEME-5" width="9" sites="10" ic="14.9" re="15.0" llr="104" p_value="1.8e-031" e_value="1.0e+004" bayes_threshold="10.5421" elapsed_time="7.764134">
+<motif id="motif_5" name="GAGGAAGAG" alt="MEME-5" width="9" sites="10" ic="14.9" re="15.0" llr="104" p_value="1.8e-031" e_value="1.0e+004" bayes_threshold="10.5421" elapsed_time="7.861719">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -1621,7 +1621,7 @@ A[TG][CG]TG[GA]GGC
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_6" name="AGABAAAGG" alt="MEME-6" width="9" sites="10" ic="15.1" re="15.0" llr="104" p_value="5.4e-031" e_value="3.0e+004" bayes_threshold="10.5421" elapsed_time="9.230897">
+<motif id="motif_6" name="AGABAAAGG" alt="MEME-6" width="9" sites="10" ic="15.1" re="15.0" llr="104" p_value="5.4e-031" e_value="3.0e+004" bayes_threshold="10.5421" elapsed_time="9.401739">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -1894,7 +1894,7 @@ AGA[CGT]AAAGG
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_7" name="CCTBCCCTG" alt="MEME-7" width="9" sites="10" ic="14.6" re="15.1" llr="104" p_value="3.0e-031" e_value="1.7e+004" bayes_threshold="10.5421" elapsed_time="10.729750">
+<motif id="motif_7" name="CCTBCCCTG" alt="MEME-7" width="9" sites="10" ic="14.6" re="15.1" llr="104" p_value="3.0e-031" e_value="1.7e+004" bayes_threshold="10.5421" elapsed_time="10.939176">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -2167,7 +2167,7 @@ CCT[CGT]CCCTG
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_8" name="CCKCTGCCC" alt="MEME-8" width="9" sites="10" ic="14.0" re="14.6" llr="101" p_value="5.7e-030" e_value="3.2e+005" bayes_threshold="10.5421" elapsed_time="12.227923">
+<motif id="motif_8" name="CCKCTGCCC" alt="MEME-8" width="9" sites="10" ic="14.0" re="14.6" llr="101" p_value="5.7e-030" e_value="3.2e+005" bayes_threshold="10.5421" elapsed_time="12.455986">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -2440,7 +2440,7 @@ C[CA][GT]C[TC][GT]CCC
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_9" name="AAAAATCAA" alt="MEME-9" width="9" sites="10" ic="15.5" re="14.7" llr="102" p_value="6.4e-030" e_value="3.6e+005" bayes_threshold="10.7938" elapsed_time="13.733353">
+<motif id="motif_9" name="AAAAATCAA" alt="MEME-9" width="9" sites="10" ic="15.5" re="14.7" llr="102" p_value="6.4e-030" e_value="3.6e+005" bayes_threshold="10.7938" elapsed_time="14.006926">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -2713,7 +2713,7 @@ A[AT]AAAT[CA]AA
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_10" name="GGTGGGGRG" alt="MEME-10" width="9" sites="8" ic="14.9" re="15.6" llr="87" p_value="1.7e-024" e_value="4.7e+005" bayes_threshold="12.1866" elapsed_time="15.214929">
+<motif id="motif_10" name="GGTGGGGRG" alt="MEME-10" width="9" sites="8" ic="14.9" re="15.6" llr="87" p_value="1.7e-024" e_value="4.7e+005" bayes_threshold="12.1866" elapsed_time="15.537329">
 <scores>
 <alphabet_matrix>
 <alphabet_array>

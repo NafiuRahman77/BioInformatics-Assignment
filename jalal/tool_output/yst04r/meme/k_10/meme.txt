@@ -30,10 +30,10 @@ CONTROL SEQUENCES= --none--
 ALPHABET= ACGT
 Sequence name            Weight Length  Sequence name            Weight Length  
 -------------            ------ ------  -------------            ------ ------  
-S1                       1.0000   1000  S2                       1.0000   1000  
-S3                       1.0000   1000  S4                       1.0000   1000  
-S5                       1.0000   1000  S6                       1.0000   1000  
-S7                       1.0000   1000  
+1                        1.0000   1000  2                        1.0000   1000  
+3                        1.0000   1000  4                        1.0000   1000  
+5                        1.0000   1000  6                        1.0000   1000  
+7                        1.0000   1000  
 ********************************************************************************
 
 ********************************************************************************
@@ -99,13 +99,13 @@ sequence
 --------------------------------------------------------------------------------
 Sequence name            Strand  Start   P-value               Site 
 -------------            ------  ----- ---------            ----------
-S5                           +    820  7.09e-07 AAACTGTGGC CTTTTCTGGC ACACATGATC
-S4                           +    323  7.09e-07 TGGACTTCCT CTTTTCTGGC AACCAAACCC
-S2                           +    657  7.09e-07 CTGGACACCC CTTTTCTGGC ATCCAGTTTT
-S1                           -    403  4.60e-06 AAACACTTCC TTTTTCTGGC CCTGATAATA
-S7                           +    279  6.02e-06 TACCCGAAAG TTTTTCCGGC AAGCTAAATG
-S6                           +    902  8.33e-06 TATTTTGTAT CTTTTCTTCC CTTGTCTCAA
-S3                           +    742  9.75e-06 AAGTATTCAT CTTTTCCTCC ATTTATTTGC
+5                            +    820  7.09e-07 AAACTGTGGC CTTTTCTGGC ACACATGATC
+4                            +    323  7.09e-07 TGGACTTCCT CTTTTCTGGC AACCAAACCC
+2                            +    657  7.09e-07 CTGGACACCC CTTTTCTGGC ATCCAGTTTT
+1                            -    403  4.60e-06 AAACACTTCC TTTTTCTGGC CCTGATAATA
+7                            +    279  6.02e-06 TACCCGAAAG TTTTTCCGGC AAGCTAAATG
+6                            +    902  8.33e-06 TATTTTGTAT CTTTTCTTCC CTTGTCTCAA
+3                            +    742  9.75e-06 AAGTATTCAT CTTTTCCTCC ATTTATTTGC
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -113,26 +113,26 @@ S3                           +    742  9.75e-06 AAGTATTCAT CTTTTCCTCC ATTTATTTGC
 --------------------------------------------------------------------------------
 SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
 -------------            ----------------  -------------
-S5                                7.1e-07  819_[+1]_171
-S4                                7.1e-07  322_[+1]_668
-S2                                7.1e-07  656_[+1]_334
-S1                                4.6e-06  402_[-1]_588
-S7                                  6e-06  278_[+1]_712
-S6                                8.3e-06  901_[+1]_89
-S3                                9.7e-06  741_[+1]_249
+5                                 7.1e-07  819_[+1]_171
+4                                 7.1e-07  322_[+1]_668
+2                                 7.1e-07  656_[+1]_334
+1                                 4.6e-06  402_[-1]_588
+7                                   6e-06  278_[+1]_712
+6                                 8.3e-06  901_[+1]_89
+3                                 9.7e-06  741_[+1]_249
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 	Motif CTTTTCTGGC MEME-1 in BLOCKS format
 --------------------------------------------------------------------------------
 BL   MOTIF CTTTTCTGGC width=10 seqs=7
-S5                       (  820) CTTTTCTGGC  1 
-S4                       (  323) CTTTTCTGGC  1 
-S2                       (  657) CTTTTCTGGC  1 
-S1                       (  403) TTTTTCTGGC  1 
-S7                       (  279) TTTTTCCGGC  1 
-S6                       (  902) CTTTTCTTCC  1 
-S3                       (  742) CTTTTCCTCC  1 
+5                        (  820) CTTTTCTGGC  1 
+4                        (  323) CTTTTCTGGC  1 
+2                        (  657) CTTTTCTGGC  1 
+1                        (  403) TTTTTCTGGC  1 
+7                        (  279) TTTTTCCGGC  1 
+6                        (  902) CTTTTCTTCC  1 
+3                        (  742) CTTTTCCTCC  1 
 //
 
 --------------------------------------------------------------------------------
@@ -178,7 +178,7 @@ letter-probability matrix: alength= 4 w= 10 nsites= 7 E= 5.7e+003
 
 
 
-Time  0.47 secs.
+Time  0.49 secs.
 
 ********************************************************************************
 
@@ -217,10 +217,10 @@ sequence
 --------------------------------------------------------------------------------
 Sequence name            Strand  Start   P-value               Site 
 -------------            ------  ----- ---------            ----------
-S7                           +    406  4.34e-07 CTCGCAACGG CGGGATTCCT CTATGGCGTG
-S4                           +    349  4.34e-07 ACCCATACAT CGGGATTCCT ATAATACCTT
-S6                           -    525  8.69e-07 AGTTTTGGAA CGGGATTCCA CTTTCCGCAA
-S5                           +    772  1.58e-06 AAGAGGTCTC CGTGATTCCT AGCCACCTCA
+7                            +    406  4.34e-07 CTCGCAACGG CGGGATTCCT CTATGGCGTG
+4                            +    349  4.34e-07 ACCCATACAT CGGGATTCCT ATAATACCTT
+6                            -    525  8.69e-07 AGTTTTGGAA CGGGATTCCA CTTTCCGCAA
+5                            +    772  1.58e-06 AAGAGGTCTC CGTGATTCCT AGCCACCTCA
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -228,20 +228,20 @@ S5                           +    772  1.58e-06 AAGAGGTCTC CGTGATTCCT AGCCACCTCA
 --------------------------------------------------------------------------------
 SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
 -------------            ----------------  -------------
-S7                                4.3e-07  405_[+2]_585
-S4                                4.3e-07  348_[+2]_642
-S6                                8.7e-07  524_[-2]_466
-S5                                1.6e-06  771_[+2]_219
+7                                 4.3e-07  405_[+2]_585
+4                                 4.3e-07  348_[+2]_642
+6                                 8.7e-07  524_[-2]_466
+5                                 1.6e-06  771_[+2]_219
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 	Motif CGGGATTCCT MEME-2 in BLOCKS format
 --------------------------------------------------------------------------------
 BL   MOTIF CGGGATTCCT width=10 seqs=4
-S7                       (  406) CGGGATTCCT  1 
-S4                       (  349) CGGGATTCCT  1 
-S6                       (  525) CGGGATTCCA  1 
-S5                       (  772) CGTGATTCCT  1 
+7                        (  406) CGGGATTCCT  1 
+4                        (  349) CGGGATTCCT  1 
+6                        (  525) CGGGATTCCA  1 
+5                        (  772) CGTGATTCCT  1 
 //
 
 --------------------------------------------------------------------------------
@@ -287,7 +287,7 @@ CG[GT]GATTCC[TA]
 
 
 
-Time  0.94 secs.
+Time  0.97 secs.
 
 ********************************************************************************
 
@@ -326,13 +326,13 @@ sequence
 --------------------------------------------------------------------------------
 Sequence name            Strand  Start   P-value               Site 
 -------------            ------  ----- ---------            ----------
-S6                           -    941  3.08e-06 AAGAAACTAA GAAAAGAAAA ATAAAATAAA
-S5                           +    152  3.08e-06 GCAAACAATT GAAAAGAAAA ATTTTGAGGA
-S4                           -    609  3.08e-06 GGGGGAGAGA GAAAAGAAAA AAAAAGAAAA
-S3                           +    647  3.08e-06 TGTGAAATAG GAAAAGAAAA AAACACCAAA
-S7                           +    331  8.10e-06 GAGAAAGAAA GAAAAAAAAA AAATGTACAC
-S1                           -    186  8.10e-06 AAAGAGGAAA GAAAAAAAAA TTAATCGATT
-S2                           -    903  1.31e-05 ATTTAGAATT AAAAAGAAAA ATATTTACGT
+6                            -    941  3.08e-06 AAGAAACTAA GAAAAGAAAA ATAAAATAAA
+5                            +    152  3.08e-06 GCAAACAATT GAAAAGAAAA ATTTTGAGGA
+4                            -    609  3.08e-06 GGGGGAGAGA GAAAAGAAAA AAAAAGAAAA
+3                            +    647  3.08e-06 TGTGAAATAG GAAAAGAAAA AAACACCAAA
+7                            +    331  8.10e-06 GAGAAAGAAA GAAAAAAAAA AAATGTACAC
+1                            -    186  8.10e-06 AAAGAGGAAA GAAAAAAAAA TTAATCGATT
+2                            -    903  1.31e-05 ATTTAGAATT AAAAAGAAAA ATATTTACGT
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -340,26 +340,26 @@ S2                           -    903  1.31e-05 ATTTAGAATT AAAAAGAAAA ATATTTACGT
 --------------------------------------------------------------------------------
 SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
 -------------            ----------------  -------------
-S6                                3.1e-06  940_[-3]_50
-S5                                3.1e-06  151_[+3]_839
-S4                                3.1e-06  608_[-3]_382
-S3                                3.1e-06  646_[+3]_344
-S7                                8.1e-06  330_[+3]_660
-S1                                8.1e-06  185_[-3]_805
-S2                                1.3e-05  902_[-3]_88
+6                                 3.1e-06  940_[-3]_50
+5                                 3.1e-06  151_[+3]_839
+4                                 3.1e-06  608_[-3]_382
+3                                 3.1e-06  646_[+3]_344
+7                                 8.1e-06  330_[+3]_660
+1                                 8.1e-06  185_[-3]_805
+2                                 1.3e-05  902_[-3]_88
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 	Motif GAAAAGAAAA MEME-3 in BLOCKS format
 --------------------------------------------------------------------------------
 BL   MOTIF GAAAAGAAAA width=10 seqs=7
-S6                       (  941) GAAAAGAAAA  1 
-S5                       (  152) GAAAAGAAAA  1 
-S4                       (  609) GAAAAGAAAA  1 
-S3                       (  647) GAAAAGAAAA  1 
-S7                       (  331) GAAAAAAAAA  1 
-S1                       (  186) GAAAAAAAAA  1 
-S2                       (  903) AAAAAGAAAA  1 
+6                        (  941) GAAAAGAAAA  1 
+5                        (  152) GAAAAGAAAA  1 
+4                        (  609) GAAAAGAAAA  1 
+3                        (  647) GAAAAGAAAA  1 
+7                        (  331) GAAAAAAAAA  1 
+1                        (  186) GAAAAAAAAA  1 
+2                        (  903) AAAAAGAAAA  1 
 //
 
 --------------------------------------------------------------------------------
@@ -405,7 +405,7 @@ GAAAA[GA]AAAA
 
 
 
-Time  1.41 secs.
+Time  1.46 secs.
 
 ********************************************************************************
 
@@ -444,13 +444,13 @@ sequence
 --------------------------------------------------------------------------------
 Sequence name            Strand  Start   P-value               Site 
 -------------            ------  ----- ---------            ----------
-S7                           +    556  1.63e-07 TAAATGTGTT CCGCACCGTC ACAAAGTGTT
-S5                           -     79  2.26e-06 CGATACTCTA CGGCACCTTC ACGGTAGATG
-S3                           -    291  2.26e-06 TCAAAGTATC CAGCACCCTC GAGACAGTAT
-S6                           -    406  3.02e-06 CTTTCTATAC CCGCAGCGTC GACACTTGAA
-S2                           -    121  6.78e-06 TATACATCTG CCGCACTTTC TCCATGAGGG
-S1                           -    632  9.39e-06 CCCGCCATTC CAGAACCTTC GATTGCTTGT
-S4                           +    702  1.59e-05 ACGACAAAGA CAGCACCAAC AGATGTCGTT
+7                            +    556  1.63e-07 TAAATGTGTT CCGCACCGTC ACAAAGTGTT
+5                            -     79  2.26e-06 CGATACTCTA CGGCACCTTC ACGGTAGATG
+3                            -    291  2.26e-06 TCAAAGTATC CAGCACCCTC GAGACAGTAT
+6                            -    406  3.02e-06 CTTTCTATAC CCGCAGCGTC GACACTTGAA
+2                            -    121  6.78e-06 TATACATCTG CCGCACTTTC TCCATGAGGG
+1                            -    632  9.39e-06 CCCGCCATTC CAGAACCTTC GATTGCTTGT
+4                            +    702  1.59e-05 ACGACAAAGA CAGCACCAAC AGATGTCGTT
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -458,26 +458,26 @@ S4                           +    702  1.59e-05 ACGACAAAGA CAGCACCAAC AGATGTCGTT
 --------------------------------------------------------------------------------
 SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
 -------------            ----------------  -------------
-S7                                1.6e-07  555_[+4]_435
-S5                                2.3e-06  78_[-4]_912
-S3                                2.3e-06  290_[-4]_700
-S6                                  3e-06  405_[-4]_585
-S2                                6.8e-06  120_[-4]_870
-S1                                9.4e-06  631_[-4]_359
-S4                                1.6e-05  701_[+4]_289
+7                                 1.6e-07  555_[+4]_435
+5                                 2.3e-06  78_[-4]_912
+3                                 2.3e-06  290_[-4]_700
+6                                   3e-06  405_[-4]_585
+2                                 6.8e-06  120_[-4]_870
+1                                 9.4e-06  631_[-4]_359
+4                                 1.6e-05  701_[+4]_289
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 	Motif CMGCACCKTC MEME-4 in BLOCKS format
 --------------------------------------------------------------------------------
 BL   MOTIF CMGCACCKTC width=10 seqs=7
-S7                       (  556) CCGCACCGTC  1 
-S5                       (   79) CGGCACCTTC  1 
-S3                       (  291) CAGCACCCTC  1 
-S6                       (  406) CCGCAGCGTC  1 
-S2                       (  121) CCGCACTTTC  1 
-S1                       (  632) CAGAACCTTC  1 
-S4                       (  702) CAGCACCAAC  1 
+7                        (  556) CCGCACCGTC  1 
+5                        (   79) CGGCACCTTC  1 
+3                        (  291) CAGCACCCTC  1 
+6                        (  406) CCGCAGCGTC  1 
+2                        (  121) CCGCACTTTC  1 
+1                        (  632) CAGAACCTTC  1 
+4                        (  702) CAGCACCAAC  1 
 //
 
 --------------------------------------------------------------------------------
@@ -523,7 +523,7 @@ C[AC]GCACC[TG]TC
 
 
 
-Time  1.87 secs.
+Time  1.92 secs.
 
 ********************************************************************************
 
@@ -562,13 +562,13 @@ sequence
 --------------------------------------------------------------------------------
 Sequence name            Strand  Start   P-value               Site 
 -------------            ------  ----- ---------            ----------
-S2                           +    542  7.01e-07 ACACTTCTGC GGTATCACCC TACTTATTCC
-S7                           +    185  1.03e-06 ATACGGTCAG GGTAGCGCCC TGGTCAAACT
-S4                           +    226  1.99e-06 AGAGAAGGGG GGTAACACCC CTCCGCGCTC
-S5                           +    528  4.70e-06 CTTCCACTAG GATAGCACCC AAACACCTGC
-S6                           -    633  7.19e-06 ATGCTGACTT GGTATCACAC TTCATGAATT
-S1                           +    377  1.06e-05 CCTTTATTTT GGCTTCACCC TCATACTATT
-S3                           -    317  1.68e-05 TCTCTGGTGT GGAAGCATCC CTGACGTCAA
+2                            +    542  7.01e-07 ACACTTCTGC GGTATCACCC TACTTATTCC
+7                            +    185  1.03e-06 ATACGGTCAG GGTAGCGCCC TGGTCAAACT
+4                            +    226  1.99e-06 AGAGAAGGGG GGTAACACCC CTCCGCGCTC
+5                            +    528  4.70e-06 CTTCCACTAG GATAGCACCC AAACACCTGC
+6                            -    633  7.19e-06 ATGCTGACTT GGTATCACAC TTCATGAATT
+1                            +    377  1.06e-05 CCTTTATTTT GGCTTCACCC TCATACTATT
+3                            -    317  1.68e-05 TCTCTGGTGT GGAAGCATCC CTGACGTCAA
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -576,26 +576,26 @@ S3                           -    317  1.68e-05 TCTCTGGTGT GGAAGCATCC CTGACGTCAA
 --------------------------------------------------------------------------------
 SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
 -------------            ----------------  -------------
-S2                                  7e-07  541_[+5]_449
-S7                                  1e-06  184_[+5]_806
-S4                                  2e-06  225_[+5]_765
-S5                                4.7e-06  527_[+5]_463
-S6                                7.2e-06  632_[-5]_358
-S1                                1.1e-05  376_[+5]_614
-S3                                1.7e-05  316_[-5]_674
+2                                   7e-07  541_[+5]_449
+7                                   1e-06  184_[+5]_806
+4                                   2e-06  225_[+5]_765
+5                                 4.7e-06  527_[+5]_463
+6                                 7.2e-06  632_[-5]_358
+1                                 1.1e-05  376_[+5]_614
+3                                 1.7e-05  316_[-5]_674
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 	Motif GGTAKCACCC MEME-5 in BLOCKS format
 --------------------------------------------------------------------------------
 BL   MOTIF GGTAKCACCC width=10 seqs=7
-S2                       (  542) GGTATCACCC  1 
-S7                       (  185) GGTAGCGCCC  1 
-S4                       (  226) GGTAACACCC  1 
-S5                       (  528) GATAGCACCC  1 
-S6                       (  633) GGTATCACAC  1 
-S1                       (  377) GGCTTCACCC  1 
-S3                       (  317) GGAAGCATCC  1 
+2                        (  542) GGTATCACCC  1 
+7                        (  185) GGTAGCGCCC  1 
+4                        (  226) GGTAACACCC  1 
+5                        (  528) GATAGCACCC  1 
+6                        (  633) GGTATCACAC  1 
+1                        (  377) GGCTTCACCC  1 
+3                        (  317) GGAAGCATCC  1 
 //
 
 --------------------------------------------------------------------------------
@@ -641,7 +641,7 @@ GGTA[GT]CACCC
 
 
 
-Time  2.32 secs.
+Time  2.39 secs.
 
 ********************************************************************************
 
@@ -680,13 +680,13 @@ sequence
 --------------------------------------------------------------------------------
 Sequence name            Strand  Start   P-value               Site 
 -------------            ------  ----- ---------            ----------
-S7                           +    225  1.89e-06 AAAAATAATA AGGAAGAAAA AAATAGCTAA
-S5                           +    463  1.89e-06 ACGAAAAAGA AGGAAGAAAA AAAAAGAAAA
-S4                           -    928  3.04e-06 AAAAGAAACA AGGAAGAAAG GGAACGAGAA
-S1                           -    549  6.07e-06 TGCAATCAAT AGGAAGACAG GAAGTCGAGC
-S6                           -    827  1.05e-05 CAACTCTGGT AGGAAGATAA TGCTTTTTTT
-S2                           -    952  1.36e-05 TATAGATTTA AGCAAGAAAA GAATACAAAC
-S3                           +    130  1.82e-05 TGTGCAAATG AGGAAGAAGT GAATGAAATT
+7                            +    225  1.89e-06 AAAAATAATA AGGAAGAAAA AAATAGCTAA
+5                            +    463  1.89e-06 ACGAAAAAGA AGGAAGAAAA AAAAAGAAAA
+4                            -    928  3.04e-06 AAAAGAAACA AGGAAGAAAG GGAACGAGAA
+1                            -    549  6.07e-06 TGCAATCAAT AGGAAGACAG GAAGTCGAGC
+6                            -    827  1.05e-05 CAACTCTGGT AGGAAGATAA TGCTTTTTTT
+2                            -    952  1.36e-05 TATAGATTTA AGCAAGAAAA GAATACAAAC
+3                            +    130  1.82e-05 TGTGCAAATG AGGAAGAAGT GAATGAAATT
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -694,26 +694,26 @@ S3                           +    130  1.82e-05 TGTGCAAATG AGGAAGAAGT GAATGAAATT
 --------------------------------------------------------------------------------
 SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
 -------------            ----------------  -------------
-S7                                1.9e-06  224_[+6]_766
-S5                                1.9e-06  462_[+6]_528
-S4                                  3e-06  927_[-6]_63
-S1                                6.1e-06  548_[-6]_442
-S6                                1.1e-05  826_[-6]_164
-S2                                1.4e-05  951_[-6]_39
-S3                                1.8e-05  129_[+6]_861
+7                                 1.9e-06  224_[+6]_766
+5                                 1.9e-06  462_[+6]_528
+4                                   3e-06  927_[-6]_63
+1                                 6.1e-06  548_[-6]_442
+6                                 1.1e-05  826_[-6]_164
+2                                 1.4e-05  951_[-6]_39
+3                                 1.8e-05  129_[+6]_861
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 	Motif AGGAAGAAAR MEME-6 in BLOCKS format
 --------------------------------------------------------------------------------
 BL   MOTIF AGGAAGAAAR width=10 seqs=7
-S7                       (  225) AGGAAGAAAA  1 
-S5                       (  463) AGGAAGAAAA  1 
-S4                       (  928) AGGAAGAAAG  1 
-S1                       (  549) AGGAAGACAG  1 
-S6                       (  827) AGGAAGATAA  1 
-S2                       (  952) AGCAAGAAAA  1 
-S3                       (  130) AGGAAGAAGT  1 
+7                        (  225) AGGAAGAAAA  1 
+5                        (  463) AGGAAGAAAA  1 
+4                        (  928) AGGAAGAAAG  1 
+1                        (  549) AGGAAGACAG  1 
+6                        (  827) AGGAAGATAA  1 
+2                        (  952) AGCAAGAAAA  1 
+3                        (  130) AGGAAGAAGT  1 
 //
 
 --------------------------------------------------------------------------------
@@ -759,7 +759,7 @@ AGGAAGAAA[AG]
 
 
 
-Time  2.77 secs.
+Time  2.84 secs.
 
 ********************************************************************************
 
@@ -798,11 +798,11 @@ sequence
 --------------------------------------------------------------------------------
 Sequence name            Strand  Start   P-value               Site 
 -------------            ------  ----- ---------            ----------
-S4                           +    628  7.09e-07 CTCTCTCCCC CGTTGTTGTC TCACCATATC
-S2                           +    213  1.87e-06 GACCCAGAGA TGTTGTTGTC CTAGTTACAC
-S1                           -    760  1.87e-06 GAGAACAGGC TGTTGTTGTC ACACGATTCG
-S3                           -     24  2.57e-06 TCGGAGTCAA CCTTGTTGTC ATGAATATAT
-S5                           -    314  6.02e-06 AGACGACTTT TCTGGTTGTC CCGCTTCACG
+4                            +    628  7.09e-07 CTCTCTCCCC CGTTGTTGTC TCACCATATC
+2                            +    213  1.87e-06 GACCCAGAGA TGTTGTTGTC CTAGTTACAC
+1                            -    760  1.87e-06 GAGAACAGGC TGTTGTTGTC ACACGATTCG
+3                            -     24  2.57e-06 TCGGAGTCAA CCTTGTTGTC ATGAATATAT
+5                            -    314  6.02e-06 AGACGACTTT TCTGGTTGTC CCGCTTCACG
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -810,22 +810,22 @@ S5                           -    314  6.02e-06 AGACGACTTT TCTGGTTGTC CCGCTTCACG
 --------------------------------------------------------------------------------
 SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
 -------------            ----------------  -------------
-S4                                7.1e-07  627_[+7]_363
-S2                                1.9e-06  212_[+7]_778
-S1                                1.9e-06  759_[-7]_231
-S3                                2.6e-06  23_[-7]_967
-S5                                  6e-06  313_[-7]_677
+4                                 7.1e-07  627_[+7]_363
+2                                 1.9e-06  212_[+7]_778
+1                                 1.9e-06  759_[-7]_231
+3                                 2.6e-06  23_[-7]_967
+5                                   6e-06  313_[-7]_677
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 	Motif YSTTGTTGTC MEME-7 in BLOCKS format
 --------------------------------------------------------------------------------
 BL   MOTIF YSTTGTTGTC width=10 seqs=5
-S4                       (  628) CGTTGTTGTC  1 
-S2                       (  213) TGTTGTTGTC  1 
-S1                       (  760) TGTTGTTGTC  1 
-S3                       (   24) CCTTGTTGTC  1 
-S5                       (  314) TCTGGTTGTC  1 
+4                        (  628) CGTTGTTGTC  1 
+2                        (  213) TGTTGTTGTC  1 
+1                        (  760) TGTTGTTGTC  1 
+3                        (   24) CCTTGTTGTC  1 
+5                        (  314) TCTGGTTGTC  1 
 //
 
 --------------------------------------------------------------------------------
@@ -871,7 +871,7 @@ letter-probability matrix: alength= 4 w= 10 nsites= 5 E= 2.2e+005
 
 
 
-Time  3.21 secs.
+Time  3.29 secs.
 
 ********************************************************************************
 
@@ -910,8 +910,8 @@ sequence
 --------------------------------------------------------------------------------
 Sequence name            Strand  Start   P-value               Site 
 -------------            ------  ----- ---------            ----------
-S4                           +    236  1.63e-07 GGTAACACCC CTCCGCGCTC TTTTCCGATT
-S6                           +    446  4.30e-07 TCTATAGTAC CTCCTCGCTC AGCATCTGCT
+4                            +    236  1.63e-07 GGTAACACCC CTCCGCGCTC TTTTCCGATT
+6                            +    446  4.30e-07 TCTATAGTAC CTCCTCGCTC AGCATCTGCT
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -919,16 +919,16 @@ S6                           +    446  4.30e-07 TCTATAGTAC CTCCTCGCTC AGCATCTGCT
 --------------------------------------------------------------------------------
 SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
 -------------            ----------------  -------------
-S4                                1.6e-07  235_[+8]_755
-S6                                4.3e-07  445_[+8]_545
+4                                 1.6e-07  235_[+8]_755
+6                                 4.3e-07  445_[+8]_545
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 	Motif CTCCKCGCTC MEME-8 in BLOCKS format
 --------------------------------------------------------------------------------
 BL   MOTIF CTCCKCGCTC width=10 seqs=2
-S4                       (  236) CTCCGCGCTC  1 
-S6                       (  446) CTCCTCGCTC  1 
+4                        (  236) CTCCGCGCTC  1 
+6                        (  446) CTCCTCGCTC  1 
 //
 
 --------------------------------------------------------------------------------
@@ -974,7 +974,7 @@ CTCC[GT]CGCTC
 
 
 
-Time  3.64 secs.
+Time  3.73 secs.
 
 ********************************************************************************
 
@@ -1013,8 +1013,8 @@ sequence
 --------------------------------------------------------------------------------
 Sequence name            Strand  Start   P-value               Site 
 -------------            ------  ----- ---------            ----------
-S5                           +    591  1.63e-07 ACCACTTTCG CCTCTCCCGC CCCTGATAAC
-S1                           -    647  4.30e-07 GGTACTAAAC CCTTTCCCGC CATTCCAGAA
+5                            +    591  1.63e-07 ACCACTTTCG CCTCTCCCGC CCCTGATAAC
+1                            -    647  4.30e-07 GGTACTAAAC CCTTTCCCGC CATTCCAGAA
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -1022,16 +1022,16 @@ S1                           -    647  4.30e-07 GGTACTAAAC CCTTTCCCGC CATTCCAGAA
 --------------------------------------------------------------------------------
 SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
 -------------            ----------------  -------------
-S5                                1.6e-07  590_[+9]_400
-S1                                4.3e-07  646_[-9]_344
+5                                 1.6e-07  590_[+9]_400
+1                                 4.3e-07  646_[-9]_344
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 	Motif CCTYTCCCGC MEME-9 in BLOCKS format
 --------------------------------------------------------------------------------
 BL   MOTIF CCTYTCCCGC width=10 seqs=2
-S5                       (  591) CCTCTCCCGC  1 
-S1                       (  647) CCTTTCCCGC  1 
+5                        (  591) CCTCTCCCGC  1 
+1                        (  647) CCTTTCCCGC  1 
 //
 
 --------------------------------------------------------------------------------
@@ -1077,7 +1077,7 @@ CCT[CT]TCCCGC
 
 
 
-Time  4.07 secs.
+Time  4.16 secs.
 
 ********************************************************************************
 
@@ -1116,8 +1116,8 @@ sequence
 --------------------------------------------------------------------------------
 Sequence name            Strand  Start   P-value               Site 
 -------------            ------  ----- ---------            ----------
-S5                           +    358  2.00e-07 GTGCGATCAT CGTGGCGGGG TTTTAAGAGT
-S4                           +    390  5.26e-07 CTAACATGTA GGTGGCGGAG GGGAGATATA
+5                            +    358  2.00e-07 GTGCGATCAT CGTGGCGGGG TTTTAAGAGT
+4                            +    390  5.26e-07 CTAACATGTA GGTGGCGGAG GGGAGATATA
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -1125,16 +1125,16 @@ S4                           +    390  5.26e-07 CTAACATGTA GGTGGCGGAG GGGAGATATA
 --------------------------------------------------------------------------------
 SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
 -------------            ----------------  -------------
-S5                                  2e-07  357_[+10]_633
-S4                                5.3e-07  389_[+10]_601
+5                                   2e-07  357_[+10]_633
+4                                 5.3e-07  389_[+10]_601
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 	Motif SGTGGCGGRG MEME-10 in BLOCKS format
 --------------------------------------------------------------------------------
 BL   MOTIF SGTGGCGGRG width=10 seqs=2
-S5                       (  358) CGTGGCGGGG  1 
-S4                       (  390) GGTGGCGGAG  1 
+5                        (  358) CGTGGCGGGG  1 
+4                        (  390) GGTGGCGGAG  1 
 //
 
 --------------------------------------------------------------------------------
@@ -1180,7 +1180,7 @@ letter-probability matrix: alength= 4 w= 10 nsites= 2 E= 2.4e+005
 
 
 
-Time  4.48 secs.
+Time  4.58 secs.
 
 ********************************************************************************
 
@@ -1194,28 +1194,28 @@ SUMMARY OF MOTIFS
 --------------------------------------------------------------------------------
 SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
 -------------            ----------------  -------------
-S1                               2.38e-08  185_[-3(8.10e-06)]_181_\
+1                                2.38e-08  185_[-3(8.10e-06)]_181_\
     [+5(1.06e-05)]_16_[-1(4.60e-06)]_136_[-6(6.07e-06)]_73_[-4(9.39e-06)]_5_\
     [-9(4.30e-07)]_103_[-7(1.87e-06)]_231
-S2                               1.14e-06  120_[-4(6.78e-06)]_82_\
+2                                1.14e-06  120_[-4(6.78e-06)]_82_\
     [+7(1.87e-06)]_116_[-5(9.46e-05)]_182_[-4(5.85e-05)]_1_[+5(7.01e-07)]_105_\
     [+1(7.09e-07)]_236_[-3(1.31e-05)]_38_[+1(4.60e-06)]_40
-S3                               2.89e-05  23_[-7(2.57e-06)]_36_[+4(3.32e-05)]_\
+3                                2.89e-05  23_[-7(2.57e-06)]_36_[+4(3.32e-05)]_\
     50_[+6(1.82e-05)]_151_[-4(2.26e-06)]_16_[-5(1.68e-05)]_320_[+3(3.08e-06)]_\
     85_[+1(9.75e-06)]_249
-S4                               1.12e-14  225_[+5(1.99e-06)]_[+8(1.63e-07)]_\
+4                                1.12e-14  225_[+5(1.99e-06)]_[+8(1.63e-07)]_\
     77_[+1(7.09e-07)]_16_[+2(4.34e-07)]_31_[+10(5.26e-07)]_209_[-3(3.08e-06)]_\
     9_[+7(7.09e-07)]_64_[+4(1.59e-05)]_52_[-6(6.63e-05)]_83_[-6(2.50e-05)]_61_\
     [-6(3.04e-06)]_63
-S5                               4.98e-14  78_[-4(2.26e-06)]_63_[+3(3.08e-06)]_\
+5                                4.98e-14  78_[-4(2.26e-06)]_63_[+3(3.08e-06)]_\
     152_[-7(6.02e-06)]_34_[+10(2.00e-07)]_95_[+6(1.89e-06)]_55_[+5(4.70e-06)]_\
     53_[+9(1.63e-07)]_4_[+5(9.46e-05)]_157_[+2(1.58e-06)]_38_[+1(7.09e-07)]_\
     171
-S6                               6.54e-08  80_[+2(7.00e-05)]_157_\
+6                                6.54e-08  80_[+2(7.00e-05)]_157_\
     [+6(3.44e-05)]_76_[+4(6.73e-05)]_62_[-4(3.02e-06)]_30_[+8(4.30e-07)]_23_\
     [-8(5.41e-05)]_36_[-2(8.69e-07)]_98_[-5(7.19e-06)]_170_[+3(2.13e-05)]_4_\
     [-6(1.05e-05)]_65_[+1(8.33e-06)]_29_[-3(3.08e-06)]_50
-S7                               2.95e-09  73_[-3(2.13e-05)]_37_[+3(8.10e-06)]_\
+7                                2.95e-09  73_[-3(2.13e-05)]_37_[+3(8.10e-06)]_\
     [+3(2.13e-05)]_44_[+5(1.03e-06)]_30_[+6(1.89e-06)]_10_[+1(6.02e-06)]_24_\
     [+1(6.02e-06)]_42_[+3(8.10e-06)]_18_[+2(1.90e-05)]_37_[+2(4.34e-07)]_7_\
     [-5(5.97e-05)]_40_[-10(1.88e-05)]_73_[+4(1.63e-07)]_180_[+3(2.13e-05)]_66_\
