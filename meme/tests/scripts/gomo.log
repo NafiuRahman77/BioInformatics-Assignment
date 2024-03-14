@@ -1,0 +1,10 @@
+*******************************************************************************
+Test gomo1 ...
+gomo --seed 1 --nostatus --verbosity 1 --oc results/gomo1 --motifs /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/gomo/motif.meme.txt /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/gomo/GO2Gene.map.csv /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/gomo/ama.nozscoring.xml &> log
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/gomo/gomo.smallthreshold.tsv output results/gomo1/gomo.tsv
+PASSED!
+*******************************************************************************
+Test gomo2 ...
+gomo --gs --seed 1 --nostatus --verbosity 1 --oc results/gomo2 --motifs /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/gomo/motif.meme.txt /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/gomo/GO2Gene.map.csv /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/gomo/ama.zscoring.xml /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/gomo/ama.nozscoring.xml &> log
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/gomo/gomo.multipleSpecies.tsv output results/gomo2/gomo.tsv
+PASSED!

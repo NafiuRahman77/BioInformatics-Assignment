@@ -1,0 +1,40 @@
+*******************************************************************************
+Test xstreme1 ...
+xstreme --p common/crp0.s --oc results/xstreme1 --verbosity 0 --m meme-chip/JASPAR_CORE_2014_vertebrates.meme --minw 16 --maxw 20 &> log
+Can't locate XML/Simple.pm in @INC (you may need to install the XML::Simple module) (@INC contains: /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.36.0 /usr/local/share/perl/5.36.0 /usr/lib/x86_64-linux-gnu/perl5/5.36 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.36 /usr/share/perl/5.36 /usr/local/lib/site_perl) at /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts/xstreme line 136.
+BEGIN failed--compilation aborted at /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts/xstreme line 136.
+-------------------------------------------------------------------------------
+xstreme exited with value 2 indicating failure.
+FAILED!
+*******************************************************************************
+Test xstreme2 ...
+xstreme --p common/adh.s --oc results/xstreme2 --verbosity 0 --protein &> log
+Can't locate XML/Simple.pm in @INC (you may need to install the XML::Simple module) (@INC contains: /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.36.0 /usr/local/share/perl/5.36.0 /usr/lib/x86_64-linux-gnu/perl5/5.36 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.36 /usr/share/perl/5.36 /usr/local/lib/site_perl) at /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts/xstreme line 136.
+BEGIN failed--compilation aborted at /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts/xstreme line 136.
+-------------------------------------------------------------------------------
+xstreme exited with value 2 indicating failure.
+FAILED!
+*******************************************************************************
+Test xstreme3 ...
+xstreme --p common/Puf3p-200.s --oc results/xstreme3 --verbosity 0 --rna --evt 0.5 --meme-evt 0.05 --streme-evt 0.2 &> log
+Can't locate XML/Simple.pm in @INC (you may need to install the XML::Simple module) (@INC contains: /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.36.0 /usr/local/share/perl/5.36.0 /usr/lib/x86_64-linux-gnu/perl5/5.36 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.36 /usr/share/perl/5.36 /usr/local/lib/site_perl) at /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts/xstreme line 136.
+BEGIN failed--compilation aborted at /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts/xstreme line 136.
+-------------------------------------------------------------------------------
+xstreme exited with value 2 indicating failure.
+FAILED!
+*******************************************************************************
+Test xstreme4 ...
+xstreme --p common/dna_with_covalent.fa --oc results/xstreme4 --verbosity 0 --m common/Jaspar-subset.meme --m common/dna_with_covalent.meme --meme-nmotifs 3 --streme-nmotifs 2 --meme-searchsize 10000 --xalph common/dna_with_covalent.alph --bfile common/dna_with_covalent.bg --ctrim 100 &> log
+Can't locate XML/Simple.pm in @INC (you may need to install the XML::Simple module) (@INC contains: /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.36.0 /usr/local/share/perl/5.36.0 /usr/lib/x86_64-linux-gnu/perl5/5.36 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.36 /usr/share/perl/5.36 /usr/local/lib/site_perl) at /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts/xstreme line 136.
+BEGIN failed--compilation aborted at /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts/xstreme line 136.
+-------------------------------------------------------------------------------
+xstreme exited with value 2 indicating failure.
+FAILED!
+*******************************************************************************
+Test xstreme5 ...
+xstreme --p common/nrmix.100bp.fa --oc results/xstreme5 --verbosity 0 --m meme-chip/JASPAR_CORE_2014_vertebrates.meme --mea-only &> log
+Can't locate XML/Simple.pm in @INC (you may need to install the XML::Simple module) (@INC contains: /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.36.0 /usr/local/share/perl/5.36.0 /usr/lib/x86_64-linux-gnu/perl5/5.36 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.36 /usr/share/perl/5.36 /usr/local/lib/site_perl) at /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts/xstreme line 136.
+BEGIN failed--compilation aborted at /NTFS-SSD/Code/4-1/63/asgn/repo/meme/scripts/xstreme line 136.
+-------------------------------------------------------------------------------
+xstreme exited with value 2 indicating failure.
+FAILED!

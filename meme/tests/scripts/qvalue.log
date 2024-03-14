@@ -1,0 +1,16 @@
+*******************************************************************************
+Test qvalue1 ...
+qvalue --header 1 --append --column 2 --seed 7718 /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/qvalue/uniform.txt 1> results/qvalue1/qvalue_snjNo_stdout 2> log
+# Read 1000 values from /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/qvalue/uniform.txt.
+# Computing q-values.
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/qvalue/uniform.out output results/qvalue1/qvalue_snjNo_stdout
+PASSED!
+*******************************************************************************
+Test qvalue2 ...
+qvalue --null /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/qvalue/null.txt /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/qvalue/observed.txt 1> results/qvalue2/qvalue_b4Apd_stdout 2> log
+# Read 5 values from /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/qvalue/observed.txt.
+# Read 10 values from /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/qvalue/null.txt.
+Converting scores to p-values.
+# Computing q-values.
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/qvalue/observed.out output results/qvalue2/qvalue_b4Apd_stdout
+PASSED!

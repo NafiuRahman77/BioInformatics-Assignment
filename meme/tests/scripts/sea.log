@@ -1,0 +1,26 @@
+*******************************************************************************
+Test sea1 ...
+sea --verbosity 1 --oc results/sea1 --p common/Klf1-200-100.combined.fa --m common/Jaspar-subset.meme --thresh 0.1 --qvalue --notrim &> log
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/sea/sea.no_control.html output results/sea1/sea.html
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/sea/sea.no_control.tsv output results/sea1/sea.tsv
+PASSED!
+*******************************************************************************
+Test sea2 ...
+sea --verbosity 1 --oc results/sea2 --p common/Klf1-200-100.fa --n sea/Klf1-200-100-shuffled.fa --motif-pseudo 0 --hofract 0 --m common/Jaspar-subset.meme --m common/Jaspar-subset2.meme --thresh 10 &> log
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/sea/sea.control.html output results/sea2/sea.html
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/sea/sea.control.tsv output results/sea2/sea.tsv
+PASSED!
+*******************************************************************************
+Test sea3 ...
+sea --verbosity 1 --oc results/sea3 --p common/Klf1-200-100.fa --n sea/Klf1-200-100-shuffled.fa --motif-pseudo 0 --hofract 0 --noseqs --m common/Jaspar-subset.meme --m common/Jaspar-subset2.meme --thresh 10 &> log
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/sea/sea.noseqs.html output results/sea3/sea.html
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/sea/sea.noseqs.tsv output results/sea3/sea.tsv
+PASSED!
+*******************************************************************************
+Test sea4 ...
+sea --oc results/sea4 --verbosity 1 --xalph common/dna_with_covalent.alph --inc MA00\* --inc MA04\* --exc MA007\* --inc T\* --bfile common/dna_with_covalent.bg --order 0 --qvalue --p common/dna_with_covalent.fa --m common/Jaspar-subset.meme --m common/Jaspar-subset2.meme --m common/dna_with_covalent.meme &> log
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/sea/sea.dna_with_covalent.html output results/sea4/sea.html
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/sea/sea.dna_with_covalent.tsv output results/sea4/sea.tsv
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/sea/sea.dna_with_covalent.sequences.tsv output results/sea4/sequences.tsv
+reference /NTFS-SSD/Code/4-1/63/asgn/repo/meme/tests/sea/sea.dna_with_covalent.sites.tsv output results/sea4/sites.tsv
+PASSED!
