@@ -1,0 +1,12 @@
+8                            -    838  6.23e-07 AGAAAAATGG AAAAAAAAAAAT AGGAAAAGCC
+7                            -    827  6.23e-07 GAAAAAAATC AAAAAAAAAAAT TTTCAAGAAA
+4                            +    333  6.23e-07 GAAAGAAAGA AAAAAAAAAAAT GTACACCCAG
+11                           -    901  1.02e-06 ATTTAGAATT AAAAAGAAAAAT ATTTACGTAA
+1                            +    473  1.02e-06 AGGAAGAAAA AAAAAGAAAAAT ACCGCTTCTA
+9                            +    379  1.43e-06 GTGAGAAAGT AAAAAAAAAAAG GAGGAGGGAA
+2                            +    813  1.43e-06 AAGCATATAT AAAAAAAAAAAG CATTATCTTC
+10                           -    185  2.09e-06 AAAAGAGGAA AGAAAAAAAAAT TAATCGATTT
+6                            -    672  3.96e-06 AGTTTTTTGG AAAATAAAAAAT AGAATGTACG
+3                            +    849  3.96e-06 TGAACATAGG AAAAAAAAATAT ATAAACAAGG
+5                            +    350  4.62e-06 TCCGCACTCA AAAAAGAAAAAA CTAGGAGGAA
+--------------------------------------------------------------------------------

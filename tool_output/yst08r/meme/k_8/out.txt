@@ -1,0 +1,12 @@
+11                           +    659  1.26e-05 GGACACCCCT TTTCTGGC ATCCAGTTTT
+10                           -    403  1.26e-05 ACACTTCCTT TTTCTGGC CCTGATAATA
+9                            +     24  1.26e-05 AAACTTGCGT TTTCTGGC AGACATATAT
+8                            +    823  1.26e-05 TCTAGTGCTA TTTCTGGC TTTTCCTATT
+5                            -    152  1.26e-05 TACACCGCAC TTTCTGGC GTGCTTGGAT
+2                            +    731  1.26e-05 TCTCCATTGC TTTCTGGC TTTGATCTTA
+1                            +    822  1.26e-05 ACTGTGGCCT TTTCTGGC ACACATGATC
+4                            -    252  2.52e-05 AGCGAAAATC TTTCTGCC GGAAAAATTA
+3                            -    257  2.52e-05 AAGAAGTTAG TTTCTGCC TTGCTTGTTT
+6                            +    899  4.59e-05 GTGATCGCTT TTACTGGC ATATTAGCGT
+7                            -    239  5.41e-05 TTGACGGCTG TTCCTGCC TCTGACTAAA
+--------------------------------------------------------------------------------

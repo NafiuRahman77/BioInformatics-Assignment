@@ -1,0 +1,8 @@
+4                            +    604  8.81e-09 ACTTCTTTTC TTTTTTTTTCTTTTC TCTCTCCCCC
+3                            -    647  3.58e-08 CCACTTTTGG TGTTTTTTTCTTTTC CTATTTCACA
+1                            +    186  3.58e-08 AATCGATTAA TTTTTTTTTCTTTCC TCTTTTTATT
+7                            -    121  5.02e-08 TATTTTTTTT TTTTTTTTTTTTTTC CTTGTGATTG
+6                            +    936  6.78e-08 TTATTTTTAT TTTATTTTTCTTTTC TTAGTTTCTT
+5                            -    468  1.05e-07 GAAGCGGTAT TTTTCTTTTTTTTTC TTCCTTCTTT
+2                            +    942  3.36e-07 TCAATTTTTT GTTTGTATTCTTTTC TTGCTTAAAT
+--------------------------------------------------------------------------------
